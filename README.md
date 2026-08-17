@@ -1,37 +1,60 @@
 # ResellNom
 
-**Hosting • Servers • Automation • Open Source**
+<p align="center">
+  <strong>Hosting • Servers • Automation • Open Source</strong>
+</p>
 
-ResellNom is a technology-focused platform building practical solutions for hosting, server management, web infrastructure, automation, and open-source software.
+<p align="center">
+  Building practical technology for hosting providers, developers,
+  system administrators, freelancers, and businesses.
+</p>
 
-We create tools and services for developers, system administrators, freelancers, hosting providers, and businesses.
+---
 
-## 🚀 What We Do
+## 🚀 About ResellNom
 
-- 🌐 Web Hosting & Server Solutions
+ResellNom is a technology-focused platform working on web hosting,
+server management, infrastructure, automation, and open-source software.
+
+We build practical tools that make hosting and server management
+simpler, faster, and more reliable.
+
+## 🛠️ What We Do
+
+- 🌐 Web Hosting Solutions
 - 🖥️ VPS & Dedicated Server Management
-- ⚙️ WHMCS Automation & Modules
+- ⚙️ WHMCS Modules & Automation
 - 🔐 Server Security & Management Tools
-- 🧩 WordPress Plugins & Tools
-- 💻 Open-Source Software
-- 🛠️ Developer & Hosting Utilities
-- 🤖 Automation & Infrastructure Tools
+- 🧩 WordPress Plugins
+- 🐧 Linux & Server Utilities
+- 🤖 Automation Tools
+- 💻 Open-Source Projects
 
 ## 🧰 Technologies
 
-`PHP` · `Laravel` · `WordPress` · `WHMCS` · `MySQL` · `MariaDB` · `Linux` · `Bash` · `JavaScript` · `Git` · `GitHub`
+<p align="center">
+
+`PHP` · `Laravel` · `WordPress` · `WHMCS` · `MySQL` · `MariaDB` ·
+`Linux` · `Bash` · `JavaScript` · `Git` · `GitHub`
+
+</p>
 
 ## 📦 Open Source
 
-Explore our repositories to find open-source projects, plugins, scripts, automation tools, and server-management solutions.
+We publish useful open-source projects, plugins, scripts,
+automation tools, and server-management utilities.
 
-We focus on building practical, maintainable, and useful software for the hosting and developer community.
+Explore our repositories and feel free to contribute, report issues,
+or suggest improvements.
 
 ## 🤝 Community
 
-We believe in open-source collaboration, practical development, and building reliable technology for everyone.
+We believe in open-source collaboration and building reliable,
+practical technology for the hosting and developer community.
 
-⭐ Follow our organization and explore our repositories.
+⭐ Follow ResellNom and explore our repositories.
+
+---
 
 ## 📌 Repository Categories
 
@@ -46,8 +69,13 @@ We believe in open-source collaboration, practical development, and building rel
 
 ---
 
-### ResellNom
+<p align="center">
 
-**Hosting • Servers • Automation • Open Source**
+<strong>ResellNom</strong><br>
+Hosting • Servers • Automation • Open Source
 
-© 2021 - <!-- YEAR --> ResellNom. All rights reserved.
+<br><br>
+
+© 2021 - <span id="current-year">CURRENT_YEAR</span> ResellNom. All rights reserved.
+
+</p>

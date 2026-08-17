@@ -1,0 +1,41 @@
+name: Update Copyright Year
+
+on:
+  schedule:
+    - cron: "0 0 1 1 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-year:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update copyright year
+        run: |
+          YEAR=$(date +%Y)
+
+          sed -i -E \
+            "s/© 2021 - <span data-year=\"copyright\">[0-9]{4}<\/span> ResellNom/© 2021 - <span data-year=\"copyright\">$YEAR<\/span> ResellNom/" \
+            README.md
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "Copyright year is already up to date."
+            exit 0
+          fi
+
+          YEAR=$(date +%Y)
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+          git commit -m "chore: update copyright year to $YEAR"
+          git push
